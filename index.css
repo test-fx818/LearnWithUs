@@ -1,0 +1,328 @@
+* {
+    background-color: rgb(4, 133, 184);
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.learn-with-us {
+    /* background-image: url(logo.jpg); */
+    background-color: rgb(20, 97, 164);
+    font-size: 3vw;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 1rem;
+    padding-bottom: 1.6rem;
+    border-left: .6rem solid rgb(255, 255, 255);
+    border-right: .6rem solid rgb(255, 255, 255);
+    border-bottom: .6rem solid rgb(255, 255, 255);
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    white-space: nowrap;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-grow: 1;
+    flex-shrink: 2;
+}
+h1{
+    display: contents;
+}
+h1:hover{
+    background-color: rgb(21, 177, 238);
+}
+.learn-with-us:hover {
+    color: black;
+    background-color: rgb(21, 177, 238);
+}
+
+.web-slogan {
+    color: rgb(0, 255, 64);
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+
+.border1 {
+    /* border: 1px solid white; */
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h3 {
+    font-size: 1.8vh;
+    padding-left: .1rem;
+    padding-right: .1rem;
+    border: 1px solid blue;
+    margin: .3rem;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 2;
+    border-radius: 1.5rem;
+}
+
+h3:hover {
+    color: black;
+    font-size: 1.8vh;
+    background-color: white;
+    border: 1px solid white;
+}
+
+
+
+
+.course-heading {
+    background-color: rgb(4, 123, 170);
+    max-width: 90%;
+    padding: .4rem;
+    color: white;
+    font-size: 1.5rem;
+    border: 1px solid white;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 2;
+    flex-shrink: 2;
+
+}
+
+.course-heading:hover {
+    width: 90%;
+    padding: .3rem;
+    color: white;
+    font-size: 1.8rem;
+    border: 1px solid white;
+    border-radius: 1rem;
+
+}
+
+
+.html-logo {
+    height: 19vh;
+    border: 1px solid white;
+    border-radius: 1rem;
+    z-index: 1;
+}
+
+.html-logo:hover {
+    height: 23vh;
+    z-index: 1;
+}
+
+.css-logo {
+    height: 17vh;
+    border: 1px solid white;
+    border-radius: 1rem;
+    z-index: 1;
+}
+
+.css-logo:hover {
+    height: 21vh;
+    z-index: 1;
+}
+
+.c-logo {
+    height: 18.5vh;
+    border: 1px solid white;
+    border-radius: 1rem;
+    z-index: 1;
+}
+
+.c-logo:hover {
+    height: 22vh;
+    z-index: 1;
+}
+
+.python-logo {
+    height: 18vh;
+    border: 1px solid white;
+    border-radius: 1rem;
+    z-index: 1;
+}
+
+.python-logo:hover {
+    height: 22vh;
+    z-index: 1;
+}
+
+
+.cpp-logo {
+    height: 19vh;
+    border: 1px solid white;
+    border-radius: 1rem;
+    z-index: 1;
+}
+
+.cpp-logo:hover {
+    height: 22vh;
+    z-index: 1;
+}
+
+.java-logo {
+    height: 19vh;
+    border: 1px solid white;
+    border-radius: 1rem;
+    z-index: 1;
+}
+
+.java-logo:hover {
+    height: 23vh;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+div .h22{
+    background-color: rgb(26, 137, 235);
+    width: 30%;
+    color: black;
+    border: 1px solid white;
+    border-radius: 2rem;
+    padding: 7%;
+    margin: 2.5%;
+}
+
+div .h22:hover{
+    background-color: rgb(19, 121, 211);
+    width: 30%;
+    color: black;
+    border: 1px solid white;
+    border-radius: 2rem;
+    padding: 7.5%;
+    margin: 2.5%;
+}
+
+div .h23{
+    background-color: rgb(26, 137, 235);
+    width: 30%;
+    color: black;
+    border: 1px solid white;
+    border-radius: 2rem;
+    padding: 7%;
+    margin: 2.5%;
+}
+
+div .h23:hover{
+    background-color: rgb(19, 121, 211);
+    width: 30%;
+    color: black;
+    border: 1px solid white;
+    border-radius: 2rem;
+    padding: 7.5%;
+    margin: 2.5%;
+}
+
+div .h24{
+    background-color: rgb(26, 137, 235);
+    width: 30%;
+    color: black;
+    border: 1px solid white;
+    border-radius: 2rem;
+    padding: 7%;
+    margin: 2.5%;
+}
+
+div .h24:hover{
+    background-color: rgb(19, 121, 211);
+    width: 30%;
+    color: black;
+    border: 1px solid white;
+    border-radius: 2rem;
+    padding: 7.5%;
+    margin: 2.5%;
+} */
+
+a {
+    display: contents;
+    background-color: rgb(26, 137, 235);
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(19, 121, 211);
+    color: inherit;
+    text-decoration: none;
+
+}
+
+/* 
+button{
+    border: 0px solid gray;
+    padding: .6rem;
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    border-radius: 1.5rem;
+    background-color: gray;
+} */
+
+button {
+    font-size: .9rem;
+    color: white;
+    padding: .7rem;
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    border-radius: 1.5rem;
+    background-color: rgb(0, 0, 0);
+
+}
+
+
+.copyright {
+    white-space: nowrap;
+    border: 1px solid white;
+    text-align: center;
+    margin: .5rem;
+    padding: .5rem;
+    display: inline-block;
+    width: fit-content;
+    border-radius: 1.5rem;
+    position: relative;
+    bottom: .6rem;
+    left: 0rem;
+}
+
+
+.copyright:hover {
+    white-space: nowrap;
+    background-color: rgb(40, 37, 197);
+    color: white;
+    border: 2px solid white;
+    margin: .5rem;
+    padding: .6rem;
+    display: inline-block;
+    width: fit-content;
+    border-radius: 1.8rem;
+    position: relative;
+    bottom: 0.6rem;
+    left: 0rem;
+
+}

@@ -1,0 +1,81 @@
+html{
+    background-color: rgb(211, 206, 206);
+}
+body{
+    font-size: 1rem;
+    font-family: cursive;
+    color: rgba(0, 0, 0, 0.808);
+    
+}
+img{
+    height: 17vw;
+    width: 17vw;
+    margin-left: 80%;
+    margin-bottom: -20%;
+    border: 1px solid white;
+    border-radius: 9vw;
+}
+h1{
+    font-size: 7vh;
+    color: rgb(0, 17, 255);
+    margin-top: 8%;
+}
+.goba ck{
+    font-size: 0.9rem;
+    color: rgb(255, 254, 254);
+    text-align: center;
+    border-radius: 2rem;
+
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    font-family: inherit;
+    
+} 
+new{
+    /* line-height: 1.1; */
+    font-size: 3vh;
+}
+
+new1{
+    font-size: 2vh;
+    /* line-height: 1.1; */
+}
+
+
+.about{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 2rem;
+    padding: 2vw;
+}
+
+
+.button{
+    border: 1px solid rgba(128, 128, 128, 0);
+    color: rgb(255, 255, 255);
+    background-color: rgb(51, 74, 94);
+    position: fixed;
+    bottom: 1rem;
+    left: 2rem;
+    padding: 0.85rem;
+    padding-left: .85rem;
+    padding-right: .85rem;
+    border-radius: 2rem;
+    font-family: cursive;
+}
+.back-to-top{
+    color: white;
+    background-color: rgb(51, 74, 94);
+    position: fixed;
+    bottom: 1rem;
+    right: 2rem;
+    padding: 0.85rem;
+    border-radius: 2rem;
+}
+
+
+
+
+
+
