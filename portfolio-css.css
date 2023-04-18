@@ -1,0 +1,134 @@
+html{
+    background-color: rgb(21, 87, 51);
+    border: 2px solid black;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+h1{
+    border-bottom: 3px solid rgb(37, 37, 37);
+    width: fit-content;
+    padding: .5rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    font-size: 3rem;
+    font-family:Georgia, 'Times New Roman';
+    color: rgb(7, 39, 0);
+}
+h1:hover{
+    border-bottom: 3px solid black;
+    color: rgb(7, 26, 0);
+}
+
+.profile{
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    height: 9rem;
+    border-radius: 4.5rem;
+}
+.profile:hover{
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+    border-bottom: 0px solid transparent;
+    border-right: 0px solid transparent;
+    height: 9rem;
+    border-radius: 4.5rem;
+}
+
+h6{
+    border: 1px solid black;
+    padding: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin: .3rem;
+    border-radius: 1rem;    
+}
+
+
+section{
+    border: 2px solid black;
+    padding: 1rem;
+    margin: .4rem;
+    background-color: aliceblue;
+}
+
+section h3{
+    border: 1px solid green;
+    width: fit-content;
+    padding: .3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 1rem;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section h5{
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin: .3rem;
+    background-color: rgba(17, 75, 30, 0.877);
+    color: black;
+
+}
+section h5:hover{
+    background-color: rgba(17, 75, 30);
+    color: white;
+}
+
+section h3:hover{
+    background-color: rgb(14, 27, 18);
+    border: 1px solid black;
+    color: rgb(0, 248, 0);
+}
+
+
+.project-design{
+    color: green;
+    border: 1px solid green;
+    padding: 1rem;
+    margin-left: 5vw;
+    background-color: black;
+    /* padding: 1rem; */
+    /* margin-top: 3rem; */
+}
+.instagram{
+    height: 3.5rem;
+}
+.instagram:hover{
+    height: 3.6rem;
+}
+
+.github{
+    height: 3.5rem;
+}
+.github:hover{
+    height: 3.6rem;
+}
+.facebook{
+    height: 3.5rem;
+}
+.facebook:hover{
+    height: 3.6rem;
+}
+.linkedin{
+    height: 3.5rem;
+}
+.linkedin:hover{
+    height: 3.6rem;
+}
+.whatsapp{
+    height: 3.5rem;
+}
+.whatsapp:hover{
+    height: 3.6rem;
+}
