@@ -279,6 +279,11 @@ span {
         display: grid;
         grid-template-columns: 1fr;
     }
+
+    .scholarship{
+        height:15rem !important;
+        width:15rem !important;
+    }
     .reliance-logo{
         height: 4rem;
     }
