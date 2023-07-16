@@ -1,0 +1,99 @@
+html{
+    background-image: linear-gradient(90deg , rgb(8, 140, 216),rgba(20, 180, 172, 0.651),rgb(134, 44, 170));
+}
+
+.heading h1{
+    padding-left: 2rem;
+}
+
+.profile1 img{
+    height:15rem;
+    border-radius: 1rem;
+    
+}
+
+
+
+.team-member{
+    display: flex;
+    /* grid-template-columns: 1fr 1fr; */
+    place-items: center;
+    flex-wrap: wrap;
+    /* padding: 2rem; */
+}
+
+
+.profile1{
+    transition: 1.5s;
+    display: flex;
+    flex-direction: column;
+    /* gap: 0; */
+    padding-left: 10vw;
+    padding-bottom: 2rem;
+}
+
+.member-detail{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* gap: 0; */
+}
+
+.name,.role{
+    font-weight: 700;
+    color: black;
+}
+.number a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+section .social-media{
+    height: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 1rem;
+    /* gap: 2rem; */
+    
+}
+.social-media-section   {
+    position: fixed;
+    top: 25%;
+    right: 1rem;
+    /* margin-bottom: 3rem; */
+    /* row-gap: 4rem; */
+    
+}
+
+img:hover{
+    scale: 1.05;
+}
+.social-media:hover{
+    scale: 1.6;
+}
+
+
+.user-social-section{
+    display: flex;
+}
+
+.user-social-section img{
+    height: 2rem;
+}
+.user-social-section img:hover{
+    scale: 1.7;
+}
+
