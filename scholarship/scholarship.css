@@ -112,8 +112,8 @@ a{
 
 /* Reliance new idea */
 .reliance-new-idea{
-/*     height: 20rem !important; */
-/*     width: 20rem !important; */
+    height: 20rem !important;
+    width: 20rem !important;
     background-image: url("images/reliance-logo-back.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -143,8 +143,8 @@ a{
 
 /* seimens */
 .seimens-new-idea{
-/*     height: 20rem !important; */
-/*     width: 20rem !important; */
+    height: 20rem !important;
+    width: 20rem !important;
     background-image: url("images/seimen-back.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -169,8 +169,8 @@ a{
 }
 /* ongc */
 .ongc-new-idea{
-/*     height: 20rem !important; */
-/*     width: 20rem !important; */
+    height: 20rem !important;
+    width: 20rem !important;
     background-image: url("images/ongc.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -203,8 +203,8 @@ span {
 }
 /* faea */
 .faea-new-idea{
-/*     height: 20rem !important; */
-/*     width: 20rem !important; */
+    height: 20rem !important;
+    width: 20rem !important;
     background-image: url("images/FAEA-logo.gif");
     background-repeat: no-repeat;
     background-size: cover;
@@ -281,8 +281,8 @@ span {
     }
 
     .scholarship{
-/*         height:15rem !important; */
-/*         width:15rem !important; */
+        height: 13rem !important;
+        width: 12rem !important;
     }
     .reliance-logo{
         height: 4rem;
