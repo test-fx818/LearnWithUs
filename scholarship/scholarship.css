@@ -112,6 +112,7 @@ a{
 
 /* Reliance new idea */
 .reliance-new-idea{
+    border: 2px solid black;
     height: 20rem !important;
     width: 20rem !important;
     background-image: url("images/reliance-logo-back.png");
@@ -143,6 +144,7 @@ a{
 
 /* seimens */
 .seimens-new-idea{
+    border: 2px solid black;
     height: 20rem !important;
     width: 20rem !important;
     background-image: url("images/seimen-back.jpeg");
@@ -169,6 +171,7 @@ a{
 }
 /* ongc */
 .ongc-new-idea{
+    border: 2px solid black;
     height: 20rem !important;
     width: 20rem !important;
     background-image: url("images/ongc.jpg");
@@ -203,6 +206,7 @@ span {
 }
 /* faea */
 .faea-new-idea{
+    border: 2px solid black;
     height: 20rem !important;
     width: 20rem !important;
     background-image: url("images/FAEA-logo.gif");
