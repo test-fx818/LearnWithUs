@@ -1,5 +1,5 @@
 * {
-    background-color: rgb(4, 133, 184);
+    background-color: rgb(170 231 255);
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
@@ -84,7 +84,7 @@ h3:hover {
 }
 
 .portfolio{
-    color: red;
+    color: black;
     font-size: 1rem;
     text-align: center;
     margin-top: 1rem;
@@ -96,7 +96,7 @@ h3:hover {
 
 
 .course-heading {
-    background-color: rgb(4, 123, 170);
+    background-color: rgb(91 174 245);
     max-width: 90%;
     padding: .4rem;
     color: white;
