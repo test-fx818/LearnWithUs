@@ -401,7 +401,7 @@ button{
     background-color: gray;
 } */
 
-button {
+.btop {
     font-size: .9rem;
     color: white;
     padding: .7rem;
