@@ -122,78 +122,187 @@ h3:hover {
 }
 
 
-.html-logo {
+.html-logo ,.html-logo-in{
     height: 19vh;
-    border: 1px solid white;
+    width: 34vh;
+    /* border: 1px solid white; */
     border-radius: 1rem;
     z-index: 1;
 }
 
-.html-logo:hover {
+/* .html-logo:hover {
     height: 23vh;
     z-index: 1;
-}
-
+} */
 .css-logo {
-    height: 17vh;
-    border: 1px solid white;
+    height: 19vh;
+    width: 34vh;
+    /* border: 1px solid white; */
     border-radius: 1rem;
     z-index: 1;
 }
 
 .css-logo:hover {
-    height: 21vh;
-    z-index: 1;
+ transform: skew(-10deg , -10deg) ;
 }
 
 .c-logo {
-    height: 18.5vh;
-    border: 1px solid white;
+    height: 19vh;
+    width: 34vh;
+    /* border: 1px solid white; */
     border-radius: 1rem;
     z-index: 1;
 }
 
 .c-logo:hover {
-    height: 22vh;
-    z-index: 1;
+    transform: skew(-10deg , -10deg) ;
 }
 
 .python-logo {
-    height: 18vh;
-    border: 1px solid white;
+    height: 19vh;
+    width: 34vh;
+    /* border: 1px solid white; */
     border-radius: 1rem;
     z-index: 1;
 }
 
 .python-logo:hover {
-    height: 22vh;
-    z-index: 1;
+    transform: skew(-10deg , -10deg) ;
 }
 
 
 .cpp-logo {
     height: 19vh;
-    border: 1px solid white;
+    width: 34vh;
+    /* border: 1px solid white; */
     border-radius: 1rem;
     z-index: 1;
 }
 
 .cpp-logo:hover {
-    height: 22vh;
-    z-index: 1;
+    transform: skew(-10deg , -10deg) ;
 }
 
 .java-logo {
     height: 19vh;
-    border: 1px solid white;
+    width: 34vh;
+    /* border: 1px solid white; */
     border-radius: 1rem;
     z-index: 1;
 }
 
 .java-logo:hover {
-    height: 23vh;
-    z-index: 1;
+    transform: skew(-10deg , -10deg) ;
 }
+
+
+
+/* dated 11 August 11:30pm */
+
+.course-column{
+    display: flex;
+    flex-wrap: wrap;
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr; */
+    /* gap: 1rem; */
+    padding: 1rem;
+    /* margin: 1rem; */
+    gap: 2.4rem;
+    justify-content: space-evenly;    
+
+}
+
+.html-logo:hover {
+    /* transform: skew(-10deg , -10deg) ; */
+    /* transition: ease-in; */
+}
+
+/* Animation */
+
+@keyframes rotating{
+    0%{
+        transform: translateY(-1px);
+
+    }
+    100%{
+        transform: translateY(-15px);
+    }
+    /* 100%{
+        transform: rotateY(0deg);
+    } */
+}
+
+/* ANimation End */
+
+.new-message-forhtml{
+    display: none;
+    /* height: ; */
+    width: 30vh;
+    border: 2px solid black;
+    border-radius: 2rem;
+    /* transform: skew(-5deg , -5deg) ; */
+    padding: 2vh;
+    /* background-color: rgb(73, 189, 189); */
+    background-color: rgba(0, 217, 255, 0.699);
+    font-weight: 500;
+    animation-name: rotating;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
+
+}
+.new-message-forhtml:hover{
+    transform: translateY(-15px);
+    transition: ease-in;
+}
+.html-logo-in{
+    width: 31vh;
+    /* height: 24vh; */
+    background-color: transparent;
+    /* background-color: ; */
+}
+
+.html-message{
+    background-color: rgba(0, 217, 255, 0.699);
+    /* background-color: rgba(68, 224, 185, 0.699); */
+}
+.buttons{
+    background-color: rgba(0, 217, 255, 0.699);
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: column; */
+    /* grid-template-columns: 1fr 1fr; */
+}
+
+.buttons button{
+    border: 2px solid rgba(17, 1, 4, 0.74);
+    border-radius: .4rem;
+    padding: .25rem;
+    padding-left: .75rem;
+    padding-right: .75rem;
+
+    
+}
+
+:is(.html-logo-a:hover){
+    .html-logo,.c-logo,.python-logo,.java-logo,.cpp-logo,.css-logo{
+        display: none;
+    }
+    
+    .new-message-forhtml{
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+    }
+
+}
+
+
+
+
+
+
+/* Till 12 august */
 
 
 
