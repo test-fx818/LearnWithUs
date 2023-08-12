@@ -51,8 +51,8 @@ h1:hover{
 
 .border1 {
     /* border: 1px solid white; */
-    margin-left: 1rem;
-    margin-right: 1rem;
+/*     margin-left: 1rem; */
+/*     margin-right: 1rem; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,12 +60,14 @@ h1:hover{
 }
 
 h3 {
-    font-size: 1.8vh;
-    padding-left: .1rem;
-    padding-right: .1rem;
-    border: 1px solid blue;
+    font-size: 1rem;
+/*     padding-left: .1rem; */
+/*     padding-right: .1rem; */
+    border-bottom: 1px solid blue;
+    border-left: 1px solid blue;
+    border-right: 1px solid blue;
     margin: .3rem;
-    height: 20px;
+/*     height: 20px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,12 +75,12 @@ h3 {
     flex-wrap: wrap;
     flex-grow: 1;
     flex-shrink: 2;
-    border-radius: 1.5rem;
+    border-radius: .6rem;
 }
 
 h3:hover {
     color: black;
-    font-size: 1.8vh;
+/*     font-size: 1.8vh; */
     background-color: white;
     border: 1px solid white;
 }
