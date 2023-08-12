@@ -1,0 +1,23 @@
+html{
+    border: 9px solid rgba(39, 247, 39, 0.808);
+    height: 100vh;
+}
+
+h1,h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+iframe{
+    /* position: absolute; */
+    /* top: 35%; */
+    margin-top: 15%;
+}
+button{
+    position: fixed;
+    left: 2rem;
+    bottom: 1.2rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 3rem;
+}
