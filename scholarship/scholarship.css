@@ -1,14 +1,13 @@
-
-.html{
+.html {
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(45deg , rgb(48, 209, 174), rgba(160, 57, 219, 0.418) ,rgb(58, 226, 231));
+    background-image: linear-gradient(45deg, rgb(48, 209, 174), rgba(160, 57, 219, 0.418), rgb(58, 226, 231));
     height: fit-content;
     /* color: white; */
     /* background-color: gray; */
 }
 
-.heading h1{
+.heading h1 {
     padding: 0;
     margin: 0;
     font-size: 2rem;
@@ -18,65 +17,81 @@
     text-shadow: 1.2px 1.2px rgb(252, 15, 114);
 }
 
-a{
+a {
     text-decoration: none;
     color: inherit;
 }
 
-.navigation-bar{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    place-items: center;
+.navigation-bar {
+    /* text-decoration: none; */
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr; */
+    /* place-items: center; */
     padding: 1rem;
     /* margin: 1rem; */
     /* position: fixed; */
 
 }
 
+.recent h2{
+    color: rgb(15, 15, 15);
+    text-decoration: underline;
+    padding-left: .75rem;
+    padding-bottom: .75rem;
+}
 
-.navigation-bar-text a{
+.navigation-bar-text a {
     font-size: 1.2rem;
     padding: .11rem;
 }
 
-.navigation-bar-text button{
+.navigation-bar-text button {
     border: 0;
     font-size: 1.25rem;
     background-color: transparent;
     border-bottom: 2px solid rgb(0, 0, 0);
-/*     box-shadow: 3px 2px rgb(211,211,211); */
+    /*     box-shadow: 3px 2px rgb(211,211,211); */
 }
 
-.navigation-bar-text button:hover{
+.navigation-bar-text button:hover {
     cursor: grab;
     /* scale: 1.2; */
     padding: .4rem;
     padding-left: .8rem;
     padding-right: .8rem;
     color: white;
-    background-image: linear-gradient( to right , rgb(29, 216, 230) , rgba(140, 20, 209, 0.788));
+    background-image: linear-gradient(to right, rgb(29, 216, 230), rgba(140, 20, 209, 0.788));
     border-radius: .7rem;
 }
 
+.navigation-bar h1{
+    text-align: center;
+    text-decoration: none;
+    border: 0;
+    font-size: 3rem;
+}
 
 
-
-.scholarship-section{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.scholarship-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* grid-template-columns: 1fr 1fr; */
     column-gap: .2rem;
     row-gap: 4rem;
     place-items: center;
     /* padding: .6rem; */
 }
 
-.scholarship{
-/*     border: 2px solid black; */
+.scholarship {
+    color: #ffffff;
+    /*     border: 2px solid black; */
     padding: .6rem;
     padding: 2rem;
     line-height: 1.2;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
+    border-radius: 1rem;
+    /* border-top-left-radius: 1rem; */
+    /* border-top-right-radius: 1rem; */
     /* width: 80%; */
     /* height: 45vw; */
     /* overflow-y: scroll; */
@@ -84,25 +99,26 @@ a{
 
 /* Reliance scholarship */
 
-.reliance-logo{
+.reliance-logo {
     height: 7.5rem;
 }
 
 
 /* seimens scholarship */
-.seimens-logo{
+.seimens-logo {
     height: 10rem;
 }
 
 
 /* ONGC */
 
-.ongc-html{
+.ongc-html {
     background-color: rgb(31, 66, 66);
     color: #ffffff;
 
 }
-.ongc-logo{
+
+.ongc-logo {
     height: 10rem;
 }
 
@@ -111,11 +127,11 @@ a{
 
 
 /* Reliance new idea */
-.reliance-new-idea{
+.reliance-new-idea {
     border: 2px solid black;
     height: 20rem !important;
-    width: 20rem !important;
-    background-image: url("images/reliance-logo-back.png");
+    width: 10rem !important;
+    /* background-image: url("images/reliance-logo-back.png"); */
     background-repeat: no-repeat;
     background-size: cover;
     /* background-blend-mode: saturation; */
@@ -124,30 +140,49 @@ a{
     text-align: center;
     justify-content: center;
     align-items: center;
+    background-color: rgb(221, 102, 33);
 }
 
-.reliance-new-idea:hover{
+.reliance-new-idea:hover {
+    width: 25rem !important;
     background-image: none;
     background-color: rgb(80, 41, 4);
     color: white;
     /* animation: ease-out; */
     /* animation-duration: 4s; */
 }
-.text{
+.reliance-new-idea h1{
+    text-align: start;
+    /* position: relative; */
+    /* bottom: -5rem; */
+    /* left: -3.5rem; */
+    font-size: 2.5rem;
+    transform: rotateZ(270deg);
+}
+.reliance-new-idea:hover h1{
+    text-align: center;
+    position: relative;
+    bottom: 0rem;
+    left: 0rem;
+    font-size: 1.8rem;
+    transform: rotateZ(0deg);
+}
+.text {
     display: none;
 }
-:is(.reliance-new-idea:hover){
-    .text{
+
+:is(.reliance-new-idea:hover) {
+    .text {
         display: block;
     }
 }
 
 /* seimens */
-.seimens-new-idea{
+.seimens-new-idea {
     border: 2px solid black;
     height: 20rem !important;
-    width: 20rem !important;
-    background-image: url("images/seimen-back.jpeg");
+    width: 10rem !important;
+    /* background-image: url("images/seimen-back.jpeg"); */
     background-repeat: no-repeat;
     background-size: cover;
     /* background-blend-mode: saturation; */
@@ -157,24 +192,44 @@ a{
     justify-content: center;
     align-items: center;
     /* display: none; */
+    background-color: rgb(33, 101, 226);
 }
-.seimens-new-idea:hover{
+
+.seimens-new-idea:hover {
+    width: 25rem !important;
     background-image: none;
     background-color: rgb(4, 133, 192);
     color: white;
 }
-:is(.seimens-new-idea:hover){
-    .text1 , .text2{
+.seimen-text-before{
+    font-size: 3rem;
+    /* text-align: start; */
+    /* position: relative; */
+    /* left: -4.5rem; */
+    /* bottom: -5.7rem; */
+    transform: rotateZ(270deg);
+    /* rotate: 90deg; */
+}
+.seimens-new-idea:hover {
+    transform: rotateZ(0deg);
+}
+:is(.seimens-new-idea:hover) {
+    .seimen-text-before{
+        display: none;
+    }
+    .text1,
+    .text2 {
         display: block;
     }
-    
+
 }
+
 /* ongc */
-.ongc-new-idea{
+.ongc-new-idea {
     border: 2px solid black;
     height: 20rem !important;
-    width: 20rem !important;
-    background-image: url("images/ongc.jpg");
+    width: 10rem !important;
+    /* background-image: url("images/ongc.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
     /* background-blend-mode: saturation; */
@@ -183,33 +238,45 @@ a{
     text-align: center;
     justify-content: center;
     align-items: center;
+    background-color: rgb(80, 36, 7);
 }
-.ongc-new-idea:hover{
+
+.ongc-new-idea:hover {
+    width: 25rem !important;
     background-image: none;
     background-color: rgb(255, 255, 255);
     color: rgb(70, 2, 2);
 }
-.text1{
+
+.text1 {
     font-size: 2.2rem;
 }
-.text2{
+
+.text2 {
     font-size: 1.2rem;
 }
+
 span {
     display: none;
 }
-:is(.ongc-new-idea:hover){
-    .text1 , .text2{
+
+:is(.ongc-new-idea:hover) {
+    .seimen-text-before{
+        display: none;
+    }
+    .text1,
+    .text2 {
         display: block;
     }
-    
+
 }
+
 /* faea */
-.faea-new-idea{
+.faea-new-idea {
     border: 2px solid black;
     height: 20rem !important;
-    width: 20rem !important;
-    background-image: url("images/FAEA-logo.gif");
+    width: 10rem !important;
+    /* background-image: url("images/FAEA-logo.gif"); */
     background-repeat: no-repeat;
     background-size: cover;
     /* background-blend-mode: saturation; */
@@ -218,23 +285,46 @@ span {
     text-align: center;
     justify-content: center;
     align-items: center;
+    background-color: rgb(160, 72, 0);
 }
-.faea-new-idea:hover{
+.faea-text-after{
+    display: none;
+}
+.faea-text-before{
+    font-size: 3rem;
+    text-align: start;
+    /* position: relative; */
+    /* left: -3rem; */
+    /* bottom: -3.2rem; */
+    transform: rotateZ(270deg);
+    /* text-align: start; */
+}
+.faea-new-idea:hover {
+    width: 25rem !important;
     background-image: none;
     /* background-color: rgba(54, 172, 240, 0.144); */
     color: rgb(7, 9, 17);
     background-color: rgba(247, 209, 42, 0.795);
 }
-.text{
+
+.text {
     color: rgb(0, 0, 0);
     display: none;
 }
+
 /* :is(.faea-new-idea:hover){ */
-:is(.faea-new-idea:hover){
-    .text2{
+:is(.faea-new-idea:hover) {
+    .text2 {
+        display: block;
+    }
+    .faea-text-before{
+        display: none;
+    }
+    .faea-text-after{
         display: block;
     }
 }
+
 /* } */
 
 
@@ -250,24 +340,27 @@ span {
 
 
 @keyframes rotating {
-    0%{
+    0% {
         transform: rotateZ(360deg);
     }
-    100%{
+
+    100% {
         transform: rotateZ(0deg);
     }
 }
 
-.btop{
+.btop {
     position: fixed;
     bottom: 1rem;
     right: 2rem;
     /* height: 4rem; */
 }
-.btop img{
+
+.btop img {
     height: 3.4rem;
 }
-.btop img:hover{
+
+.btop img:hover {
     height: 3.8rem;
     /* rotate: 360deg; */
     animation-name: rotating;
@@ -278,25 +371,34 @@ span {
 
 /* responsiveness */
 
-@media (max-width:590px){
-    .scholarship-section{
+@media (max-width:590px) {
+    .scholarship-section {
         display: grid;
         grid-template-columns: 1fr;
     }
 
-    .scholarship{
-        height: 13rem !important;
-        width: 12rem !important;
+    .scholarship {
+        height: 5rem !important;
+        width: 4rem !important;
     }
-    .reliance-logo{
-        height: 4rem;
+
+    .reliance-logo {
+        height: 1rem;
     }
-    
-    .seimens-logo{
+
+    .something-random {
+        height: 4rem !important;
+    }
+
+    .scholarship-section h1 {
+        font-size: 1rem;
+    }
+
+    .seimens-logo {
         height: 5rem;
     }
-    
-    .ongc-logo{
+
+    .ongc-logo {
         height: 5rem;
     }
 
@@ -304,5 +406,23 @@ span {
 
 }
 
+.back-home{
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+}
+.back-home button{
+    color: white;
+    font-size: 1.2rem;
+    background-color: rgb(0, 75, 105);
+    border: 0;
+    border-radius: .6rem;
+    padding: .3rem;
+    padding-left: .75rem;
+    padding-right: .75rem;
+}
 
 
+/* dated 13 august */
+
+/* @media (max-width: 426px) {} */
