@@ -33,7 +33,7 @@ a {
 
 }
 
-.recent h2{
+.recent h2 {
     color: rgb(15, 15, 15);
     text-decoration: underline;
     padding-left: .75rem;
@@ -64,7 +64,7 @@ a {
     border-radius: .7rem;
 }
 
-.navigation-bar h1{
+.navigation-bar h1 {
     text-align: center;
     text-decoration: none;
     border: 0;
@@ -128,7 +128,7 @@ a {
 
 /* Reliance new idea */
 .reliance-new-idea {
-    border: 2px solid black;
+    /* border: 2px solid rgba(0, 0, 0, 0)116)0, 0, 0, 0); */
     height: 20rem !important;
     width: 10rem !important;
     /* background-image: url("images/reliance-logo-back.png"); */
@@ -151,7 +151,8 @@ a {
     /* animation: ease-out; */
     /* animation-duration: 4s; */
 }
-.reliance-new-idea h1{
+
+.reliance-new-idea h1 {
     text-align: start;
     /* position: relative; */
     /* bottom: -5rem; */
@@ -159,7 +160,8 @@ a {
     font-size: 2.5rem;
     transform: rotateZ(270deg);
 }
-.reliance-new-idea:hover h1{
+
+.reliance-new-idea:hover h1 {
     text-align: center;
     position: relative;
     bottom: 0rem;
@@ -167,6 +169,7 @@ a {
     font-size: 1.8rem;
     transform: rotateZ(0deg);
 }
+
 .text {
     display: none;
 }
@@ -179,7 +182,7 @@ a {
 
 /* seimens */
 .seimens-new-idea {
-    border: 2px solid black;
+    border: 2px solid rgba(0, 0, 0, 0);
     height: 20rem !important;
     width: 10rem !important;
     /* background-image: url("images/seimen-back.jpeg"); */
@@ -201,7 +204,8 @@ a {
     background-color: rgb(4, 133, 192);
     color: white;
 }
-.seimen-text-before{
+
+.seimen-text-before {
     font-size: 3rem;
     /* text-align: start; */
     /* position: relative; */
@@ -210,13 +214,16 @@ a {
     transform: rotateZ(270deg);
     /* rotate: 90deg; */
 }
+
 .seimens-new-idea:hover {
     transform: rotateZ(0deg);
 }
+
 :is(.seimens-new-idea:hover) {
-    .seimen-text-before{
+    .seimen-text-before {
         display: none;
     }
+
     .text1,
     .text2 {
         display: block;
@@ -226,7 +233,7 @@ a {
 
 /* ongc */
 .ongc-new-idea {
-    border: 2px solid black;
+    border: 2px solid rgba(0, 0, 0, 0);
     height: 20rem !important;
     width: 10rem !important;
     /* background-image: url("images/ongc.jpg"); */
@@ -261,9 +268,10 @@ span {
 }
 
 :is(.ongc-new-idea:hover) {
-    .seimen-text-before{
+    .seimen-text-before {
         display: none;
     }
+
     .text1,
     .text2 {
         display: block;
@@ -273,7 +281,8 @@ span {
 
 /* faea */
 .faea-new-idea {
-    border: 2px solid black;
+    /* color: black; */
+    border: 2px solid rgba(0, 0, 0, 0);
     height: 20rem !important;
     width: 10rem !important;
     /* background-image: url("images/FAEA-logo.gif"); */
@@ -285,12 +294,14 @@ span {
     text-align: center;
     justify-content: center;
     align-items: center;
-    background-color: rgb(160, 72, 0);
+    background-color: rgb(182, 156, 8);
 }
-.faea-text-after{
+
+.faea-text-after {
     display: none;
 }
-.faea-text-before{
+
+.faea-text-before {
     font-size: 3rem;
     text-align: start;
     /* position: relative; */
@@ -299,12 +310,13 @@ span {
     transform: rotateZ(270deg);
     /* text-align: start; */
 }
+
 .faea-new-idea:hover {
     width: 25rem !important;
     background-image: none;
     /* background-color: rgba(54, 172, 240, 0.144); */
     color: rgb(7, 9, 17);
-    background-color: rgba(247, 209, 42, 0.795);
+    background-color: rgba(248, 209, 36, 0.938);
 }
 
 .text {
@@ -317,10 +329,12 @@ span {
     .text2 {
         display: block;
     }
-    .faea-text-before{
+
+    .faea-text-before {
         display: none;
     }
-    .faea-text-after{
+
+    .faea-text-after {
         display: block;
     }
 }
@@ -371,15 +385,49 @@ span {
 
 /* responsiveness */
 
-@media (max-width:590px) {
+@media (max-width:420px) {
     .scholarship-section {
         display: grid;
         grid-template-columns: 1fr;
     }
 
+    .faea-text-before {
+        font-size: 3rem;
+        /* text-align: start; */
+        /* position: relative; */
+        /* left: -3rem; */
+        /* bottom: -3.2rem; */
+        transform: rotateZ(0deg);
+        /* text-align: start; */
+    }
+
+    .reliance-new-idea h1 {
+        /* text-align: start; */
+        /* position: relative; */
+        /* bottom: -5rem; */
+        /* left: -3.5rem; */
+        font-size: 2.5rem;
+        transform: rotateZ(0deg);
+    }
+
+    .seimen-text-before {
+        font-size: 3rem;
+        /* text-align: start; */
+        /* position: relative; */
+        /* left: -4.5rem; */
+        /* bottom: -5.7rem; */
+        transform: rotateZ(0deg);
+        /* rotate: 90deg; */
+    }
+
     .scholarship {
-        height: 5rem !important;
-        width: 4rem !important;
+        
+        height: 7rem !important;
+        width: 9rem !important;
+    }
+    .scholarship:hover{
+        height: 16rem !important;
+        width: 14rem !important;
     }
 
     .reliance-logo {
@@ -391,7 +439,7 @@ span {
     }
 
     .scholarship-section h1 {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     .seimens-logo {
@@ -402,16 +450,17 @@ span {
         height: 5rem;
     }
 
-
-
 }
 
-.back-home{
+
+
+.back-home {
     position: fixed;
     right: 2rem;
     bottom: 2rem;
 }
-.back-home button{
+
+.back-home button {
     color: white;
     font-size: 1.2rem;
     background-color: rgb(0, 75, 105);
@@ -426,3 +475,65 @@ span {
 /* dated 13 august */
 
 /* @media (max-width: 426px) {} */
+
+
+@media (min-width:420px) and (max-width:600px) {
+    .scholarship {
+        height: 12rem !important;
+        width: 10rem !important;
+    }
+    .scholarship:hover{
+        height: 17rem !important;
+        width: 16rem !important;
+    }
+
+    .scholarship-section {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .faea-text-before {
+        font-size: 2.2rem;
+        /* text-align: start; */
+        /* position: relative; */
+        /* left: -3rem; */
+        /* bottom: -3.2rem; */
+        transform: rotateZ(0deg);
+        /* text-align: start; */
+    }
+
+    .reliance-new-idea h1 {
+        /* text-align: start; */
+        /* position: relative; */
+        /* bottom: -5rem; */
+        /* left: -3.5rem; */
+        font-size: 2.2rem;
+        transform: rotateZ(0deg);
+    }
+
+    .seimen-text-before {
+        font-size: 2.5rem;
+        /* text-align: start; */
+        /* position: relative; */
+        /* left: -4.5rem; */
+        /* bottom: -5.7rem; */
+        transform: rotateZ(0deg);
+        /* rotate: 90deg; */
+    }
+
+}
+@media (min-width:600px) and (max-width:870px){
+
+    .scholarship-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+
+@media (min-width: 600px) and (max-width:725px){
+    .scholarship:hover {
+        /* height: 9rem !important; */
+        width: 18rem !important;
+    }
+}
