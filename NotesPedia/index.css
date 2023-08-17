@@ -28,7 +28,7 @@ h1 {
     background-image: linear-gradient(90deg , rgba(36, 103, 141, 0.274),rgba(33, 161, 184, 0.192),rgba(133, 13, 180, 0.5));
 }
 
-.header-section nav p{
+.header-section .nav-in-desktop , nav p{
     border-bottom: 2px solid gray;
 }
 
@@ -48,7 +48,7 @@ div {
     font-weight: 600;
 }
 
-nav{
+.nav-in-desktop , nav{
     /* overflow-x: auto;
     display: flex;
     scroll-snap-type: x mandatory;
@@ -66,16 +66,43 @@ nav{
     scroll-snap-type: x mandatory;
 
 }
-nav{
+.nav-in-desktop , nav{
     height: 150px;
     scroll-snap-type: mandatory;
     scroll-behavior: smooth;
     
 }
 
-nav h5:hover{
+ nav h5:hover{
     background-image: linear-gradient(90deg , rgb(8, 140, 216),rgba(20, 180, 172, 0.651),rgb(134, 44, 170));
 }
+
+.hamburger-opt{
+    background-color: rgba(6, 19, 43, 0.747);
+    /* padding: 1rem; */
+    /* padding-top: 10rem; */
+    /* padding-bottom: 50%; */
+    position: fixed;
+    top: 3vh;
+    left: 0;
+    /* width: 78vw; */
+    height: 96vh;
+    overflow: scroll;
+}
+.hamburger{
+    position: fixed;
+    top: 30%;
+    right: .5rem;
+    height: 2rem;
+    /* display: grid; */
+    /* grid-template-columns: 1fr; */
+    padding-top: .8rem;
+    /* bottom: 1rem; */
+    display: none;
+}
+
+
+
 
 h2{
     /* height: 50px; */
@@ -232,14 +259,18 @@ section .social-media{
     padding-top: .8rem;
     
 }
-.social-media-section   {
+.social-media-section{
     position: fixed;
-    top: 30%;
-    right: 0rem;
+    top: 37%;
+    right: .5rem;
     
 }
 .github{
     filter: invert(100%);
+}
+
+details , summary{
+    list-style-type: none;
 }
 
 .meet-team{
@@ -281,6 +312,17 @@ img:hover{
         display: grid;
         grid-template-columns: 1fr;
         column-gap: 3rem;
+    }
+    .explore-section{
+        display: none;
+    }
+    .hamburger{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .cse-class{
+        position: relative;
+        top:0vh;
     }
 }
 
