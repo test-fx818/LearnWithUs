@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     background-image: linear-gradient(45deg, rgb(48, 209, 174), rgba(160, 57, 219, 0.418), rgb(58, 226, 231));
-    height: fit-content;
+    height: 100%;
     /* color: white; */
     /* background-color: gray; */
 }
@@ -386,6 +386,9 @@ span {
 /* responsiveness */
 
 @media (max-width:420px) {
+    .heading h1{
+        font-size: 2.4rem;
+    }
     .scholarship-section {
         display: grid;
         grid-template-columns: 1fr;
@@ -408,6 +411,16 @@ span {
         /* left: -3.5rem; */
         font-size: 2.5rem;
         transform: rotateZ(0deg);
+        
+    }
+    .height-for-mobile{
+        height: 10rem !important;
+        width: 9rem !important;
+
+    }
+    .height-for-mobile:hover{
+        height: 16rem !important;
+        width: 14rem !important;
     }
 
     .seimen-text-before {
@@ -420,15 +433,7 @@ span {
         /* rotate: 90deg; */
     }
 
-    .scholarship {
-        
-        /* height: 7rem !important; */
-        /* width: 9rem !important; */
-    }
-    .scholarship:hover{
-        /* height: 16rem !important; */
-        /* width: 14rem !important; */
-    }
+    
 
     .reliance-logo {
         /* height: 1rem; */
@@ -478,13 +483,13 @@ span {
 
 
 @media (min-width:420px) and (max-width:600px) {
-    .scholarship {
+    .height-for-mobile {
         height: 12rem !important;
-        /* width: 10rem !important; */
+        width: 10rem !important;
     }
-    .scholarship:hover{
-        height: 17rem !important;
-        /* width: 16rem !important; */
+    .height-for-mobile:hover{
+        height: 15rem !important;
+        width: 16rem !important;
     }
 
     .scholarship-section {
