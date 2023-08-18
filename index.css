@@ -464,4 +464,17 @@ button{
     .border1 h3{
         font-size: 1rem;
     }
+    .copyright,.btop{
+        font-size: .75rem;
+    }
+    .btop{
+        right: .5rem;
+        padding: .5rem;
+        padding-left: .3rem;
+        padding-right: .3rem;
+    }
+    .helpus{
+        bottom: 1.2rem;
+        left: .2rem;
+    }
 }
