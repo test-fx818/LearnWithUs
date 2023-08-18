@@ -1,12 +1,22 @@
 html{
-    color: white;
-    background-color: rgb(8, 42, 51);
+    color: black;
+    /* color: white; */
+    background-color: rgb(64, 197, 233);
+}
+
+.heading{
+    padding-left: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
 }
 
 .heading h1{
     font-family: 'Courier New', Courier, monospace;
     font-size: 2.2rem;
     padding-left: 2%;
+    /* color: black; */
 }
 
 .vision-text{
@@ -21,6 +31,7 @@ html{
 
 .vision h2{
     padding-left: 2%;
+    /* padding-right: 2%; */
 }
 
 span{
@@ -35,8 +46,71 @@ a{
 .blog-section h2{
     padding-left: .7rem;
 }
-.blog1{
+.blog1,.blog2{
     padding-left: 1.2rem;
 }
 
+.blog-logo{
+    height: 3rem;
+}
 
+
+.blog1-order{
+    padding-top: .2rem;
+    /* border: 2px solid black; */
+    border-left: 5px solid white;
+    border-bottom: 5px solid white;
+    padding-bottom: 1rem;
+    border-radius: 2rem;
+
+}
+
+.info-writer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.writer{
+    font-size: .9rem;
+    /* padding-left: 5%; */
+    padding-top: 4%;
+}
+.date{
+    font-size: .9rem;
+    padding-top: 4%;
+    /* padding-right: 5%; */
+    /* text-align: end; */
+}
+
+
+
+.btop{
+    position: fixed;
+    right: 1.75rem;
+    bottom: 1rem;
+    padding: .3rem;
+    padding-left: .7rem;
+    padding-right: .7rem;
+    background-color: rgb(5, 103, 120);
+    color: white;
+    border: 0;
+    border-radius: .2rem;
+    font-size: 1rem;
+    
+}
+
+@media (max-width: 550px){
+    .info-writer{
+        padding-top: 1rem;
+        padding-left: 1.1rem;
+        display: grid;
+        /* flex-direction: column; */
+    }
+    .date{
+        font-size: .9rem;
+        padding-left: 0;
+        /* padding-top: 4%; */
+        /* padding-right: 5%; */
+        /* text-align: end; */
+    }
+}
