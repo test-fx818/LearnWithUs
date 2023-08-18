@@ -170,8 +170,8 @@ footer div:hover{
         /* height: 30%; */
         /* width: 30%; */
         /* height: 30%; */
-        height: 10rem;
-        width: 10rem;
+        height: 8rem;
+        width: 8rem;
         /* border: 5px solid gray; */
         display: flex;
         justify-content: center;
@@ -183,7 +183,7 @@ footer div:hover{
         place-items: center;
     }
     .internal-div-books img{
-        height: 8rem;
+        height: 6.5rem;
     }
     
 }
