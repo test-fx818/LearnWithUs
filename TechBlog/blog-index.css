@@ -1,0 +1,42 @@
+html{
+    color: white;
+    background-color: rgb(8, 42, 51);
+}
+
+.heading h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.2rem;
+    padding-left: 2%;
+}
+
+.vision-text{
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
+    padding: 2rem;
+    padding-bottom: .5rem;
+    padding-right: .5rem;
+    padding-top: 0;
+    border-radius: 2rem;
+}
+
+.vision h2{
+    padding-left: 2%;
+}
+
+span{
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.blog-section h2{
+    padding-left: .7rem;
+}
+.blog1{
+    padding-left: 1.2rem;
+}
+
+

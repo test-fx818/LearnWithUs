@@ -1,0 +1,36 @@
+html{
+    color: white;
+    background-color: black;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* grid-template-columns: 1fr 1fr; */
+}
+
+.github-logo{
+    filter: invert(100%);
+    margin-top: -1.2rem;
+    /* margin-left: 10%; */
+}
+
+.git-text{
+    /* text-align: center; */
+    margin-top: 2rem;
+    /* width: 80%; */
+}
+
+
+div{
+    justify-content: center;
+}
+
+video{
+    width: 90%;
+}
+
+.gitstep {
+    width: 90%;
+    border-radius: 1rem;
+}
