@@ -324,7 +324,7 @@ span {
     display: none;
 }
 
-/* :is(.faea-new-idea:hover){ */
+
 :is(.faea-new-idea:hover) {
     .text2 {
         display: block;
@@ -339,12 +339,54 @@ span {
     }
 }
 
-/* } */
+.hdfc-scholarship{
+
+    border: 2px solid rgba(0, 0, 0, 0);
+    height: 20rem !important;
+    width: 10rem !important;
+    /* background-image: url("images/FAEA-logo.gif"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-blend-mode: saturation; */
+    /* backgroun */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(252, 26, 26);
+
+}
+
+.hdfc-text{
+    font-size: 2.5rem;
+    text-align: start;
+    transform: rotateZ(270deg);
+}
 
 
+:is(.hdfc-scholarship:hover){
+    .hdfc-text{
+        transform: rotateZ(0deg);
+        /* width: 20rem; */
+        /* background-color: #ffffff; */
+    }  
+    .text2 {
+        display: block;
+    }  
+
+    .text{
+        display: grid;
+        place-items: center;
+    }
+   
 
 
-
+}
+.hdfc-scholarship:hover{
+    width: 20rem !important;
+    height: 20rem !important;
+    background-color: rgba(7, 53, 179, 0.705);
+}
 
 
 
@@ -403,7 +445,6 @@ span {
         transform: rotateZ(0deg);
         /* text-align: start; */
     }
-
     .reliance-new-idea h1 {
         /* text-align: start; */
         /* position: relative; */
@@ -434,6 +475,10 @@ span {
     }
 
     
+    .hdfc-text{
+        /* font-size: 30rem; */
+        transform: rotateZ(0deg);
+    }
 
     .reliance-logo {
         /* height: 1rem; */
@@ -524,6 +569,12 @@ span {
         transform: rotateZ(0deg);
         /* rotate: 90deg; */
     }
+
+    .hdfc-text{
+        font-size: 2rem;
+        transform: rotateZ(0deg);
+    }
+
 
 }
 @media (min-width:600px) and (max-width:870px){
