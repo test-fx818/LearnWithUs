@@ -15,130 +15,96 @@
     <section class="header-section">
 
         <nav>
-            <a href="../index.html">
-                <h1>NotesPedia</h1>
-            </a>
-        </nav>
 
-        <nav>
-            <p><a href="team.html">Meet Our Team</a></p>
+                <h1 style="color: black; text-decoration: none;">NotesPedia</h1>
+
         </nav>
+        <nav class="new">
+            <ul >
+                <li style="list-style: none;"><a href="../index.html" target="_blank">Home</a></li>
+                <li style="list-style: none;"><a href="#explore">Courses</a></li>
+                <li style="list-style: none;"><a href="team.html" target="_blank">Meet Our Team</a></li>
+                <li style="list-style: none;"><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+        <!-- <nav>
+            <p style="color: black; text-decoration: none;"><a href="team.html">Meet Our Team</a></p>
+        </nav> -->
 
     </section>
 
-    <div>
+    <div >
         <h3>Our Vision : </h3>
-        So We are designing this webpage in order to provide you all (The college students) the study material (Syllabus
-        Notes) for their college exams.
-        This is now for 1st years only. We will cover for other year too and that, would be sooner than you think.
-        <br>
-        Till then keep exploring !! <br>
-        Thanks!!
+
+        <section>So We are designing this webpage in order to provide you all
+            (The college students) the study material (Syllabus Notes) for their college exams.
+            <section id="hide"><br>This is now for 1st years only. We will cover for other year too and that, would be sooner than you think. <br><br>
+                Till then keep exploring !! <br>
+                Thanks!!</section><button id="toggle" onclick="thide()">Show more</button>
+            </section>
+
     </div>
 
-    <section class="explore-section">
-        <h2>Explore</h2>
-        <nav class="nav-in-desktop">
-            <a href="#cse">
+
+    <section >
+        <h2 id="explore" >Explore</h2>
+        <nav class="course">
+            <a   onclick="globalClass='cse'; hover();" href="#cse">
                 <h5>Computer Science and Engineering</h5>
             </a>
-            <a href="#et">
+            <a onclick="globalClass='et'; hover();" href="#et">
                 <h5>Electronics Engineering</h5>
             </a>
-            <a href="#ce">
+            <a onclick="globalClass='ce'; hover();" href="#ce">
                 <h5>Civil Engineering</h5>
             </a>
-            <a href="#bcy">
-                <h5>Engineering Chemistry</h5>
+            <a onclick="globalClass='ee'; hover();" href="#ee">
+                <h5>Electrical Engineering</h5>
             </a>
-            <a href="#che">
-                <h5>Chemical engineering</h5>
+            <a onclick="globalClass='che'; hover();" href="#che">
+                <h5>Chemical Engineering</h5>
             </a>
-            <a href="#ft">
-                <h5>Food technology</h5>
-            </a>
-            <a href="#lt">
-                <h5>Leather technology</h5>
-            </a>
-            <a href="#pt">
-                <h5>Paint technology</h5>
-            </a>
-            <a href="#ot">
-                <h5>Oil technology</h5>
-            </a>
-            <a href="">
-                <h5>Biochemical Engineering</h5>
-            </a>
-            <a href="">
-                <h5>Polymer Science</h5>
-            </a>
-            <a href="">
-                <h5>Physics</h5>
-            </a>
-            <a href="#math">
-                <h5>Mathematics</h5>
-            </a>
-            <a href="">
-                <h5>Engineering Mechanics</h5>
-            </a>
-            <a href="">
-                <h5>Engineering Graphics</h5>
-            </a>
-            <a href="">
-                <h5>English</h5>
-            </a>
-            <a href="">
-                <h5>Personal Communication</h5>
+            <a onclick="globalClass='ct'; hover();" href="#ct" onclick="hover()">
+                <h5>Chemical Technology</h5>
             </a>
         </nav>
     </section>
 
-    <section>
-        <h2>Explore Subjects</h2>
-        <section class="popularcourse">
+    <section >
+        <h2 >Explore Subjects</h2>
+        <section class="popularcourse" >
 
-            <article id="cse">
+            <article id="cse" class="cse" >
                 <h3>Computer Science and Engineering</h3>
                 <a href="cs.html" class="download-file">
                     <img src="images/cs logo.jpg" alt="" class="cs-logo"> <br>
                 </a>
             </article>
 
-            <article id="et">
+            <article id="et" class="et">
                 <h3>Electronics Engineering</h3>
-                <a href="et.html" class="download-file">
-                    <img src="images/electronics.jpg" alt="" class="electro-logo"> <br>
-                </a>
+                <a href="et.html" class="download-file" >
+                <img src="images/electronics.jpg" alt="" class="electro-logo"> <br>
+            </a>
             </article>
 
 
-            <article id="ee">
+            <article id="ee" class="ee">
                 <h3>Electrical Engineering</h3>
                 <a href="" class="download-file">
-                    <img src="images/Electrical Engineer.webp" alt="" class="ee-logo"> <br>
+                    <img src="images/Electrical Engineer.jpg" alt="" class="ee-logo"> <br>
                 </a>
             </article>
 
 
-            <article id="ce">
+            <article id="ce" class="ce">
                 <h3>Civil Engineering</h3>
 
                 <a href="" class="download-file">
                     <img src="images/civil.jpg" alt="" class="civil-logo"> <br>
                 </a>
             </article>
-
-
-            <article id="bcy">
-                <h3>Engineering Chemistry</h3>
-
-                <a href="" class="download-file">
-                    <img src="images/chemistry.jpg" alt="" class="chemistry"> <br>
-                </a>
-            </article>
-
-
-            <article id="che">
+            <article id="che" class="che">
                 <h3>Chemical Engineering</h3>
 
                 <a href="" class="download-file">
@@ -147,86 +113,12 @@
             </article>
 
 
-            <article id="ft">
-                <h3>Food Technology</h3>
+            <article id="ct" class="ct">
+                <h3>Chemical Technology</h3>
 
                 <a href="" class="download-file">
                     <img src="images/foodtech.jpg" alt="" class="food-logo"> <br>
                 </a>
-            </article>
-
-
-            <article id="lt">
-                <h3>Leather Technology</h3>
-
-                <a href="" class="download-file">
-                    <img src="images/leather.jpg" alt="" class="leather-logo"> <br>
-                </a>
-            </article>
-
-
-            <article id="pt">
-                <h3>Paint Technology</h3>
-
-                <a href="" class="download-file">
-                    <img src="images/paint.jpeg" alt="" class="paint-logo"> <br>
-                </a>
-            </article>
-
-
-            <article id="ot">
-                <h3>Oil Technology</h3>
-
-                <a href="" class="download-file">
-                    <img src="images/oil.jpeg" alt="" class="oil-logo"> <br>
-                </a>
-            </article>
-
-
-            <article id="math">
-                <h3>Mathematics</h3>
-
-                <a href="" class="download-file">
-                    <img src="images/maths.jpg" alt="" class="maths-logo"> <br>
-                </a>
-            </article>
-
-
-            <article id="physics">
-                <h3>Physics</h3>
-
-                <a href="" class="download-file">
-                    <img src="images/physics.jpg" alt="" class="physics-logo"> <br>
-                </a>
-            </article>
-
-            <article>
-                <h3>Biochemical Engineering</h3>
-            </article>
-
-
-            <article>
-                <h3>Polymer Science</h3>
-            </article>
-
-
-            <article>
-                <h3>Engineering Mechanics</h3>
-            </article>
-
-
-            <article>
-                <h3>Engineering Graphics</h3>
-            </article>
-
-
-            <article>
-                <h3>English</h3>
-            </article>
-
-
-            <article>
-                <h3>Personal Communication</h3>
             </article>
 
         </section>
@@ -234,9 +126,8 @@
     <br>
     <hr>
     <p>
-        Made with 💖 <br>
-        <a class="meet-team" href="team.html">Meet Our Team</a>
-    </p>
+        Made with 💖 <br> -LearnWithUs Team
+
 
 
     <hr>
@@ -248,107 +139,15 @@
 
 
     <section class="social-media-section">
-
-
-
-
-        <details>
-
-            <summary>
-                <img src="images/hamburger.png" class="hamburger">
-            </summary>
-
-
-
-            <!-- <h2>Click to explore</h2> -->
-
-            <article class="hamburger-opt">
-
-                <a href="#cse" class="cse-class">
-                    <h5>Computer Science and Engineering</h5>
-                </a>
-                <a href="#et">
-                    <h5>Electronics Engineering</h5>
-                </a>
-                <a href="#ce">
-                    <h5>Civil Engineering</h5>
-                </a>
-                <a href="#bcy">
-                    <h5>Engineering Chemistry</h5>
-                </a>
-                <a href="#che">
-                    <h5>Chemical engineering</h5>
-                </a>
-                <a href="#ft">
-                    <h5>Food technology</h5>
-                </a>
-                <a href="#lt">
-                    <h5>Leather technology</h5>
-                </a>
-                <a href="#pt">
-                    <h5>Paint technology</h5>
-                </a>
-                <a href="#ot">
-                    <h5>Oil technology</h5>
-                </a>
-                <a href="">
-                    <h5>Biochemical Engineering</h5>
-                </a>
-                <a href="">
-                    <h5>Polymer Science</h5>
-                </a>
-                <a href="">
-                    <h5>Physics</h5>
-                </a>
-                <a href="#math">
-                    <h5>Mathematics</h5>
-                </a>
-                <a href="">
-                    <h5>Engineering Mechanics</h5>
-                </a>
-                <a href="">
-                    <h5>Engineering Graphics</h5>
-                </a>
-                <a href="">
-                    <h5>English</h5>
-                </a>
-                <a href="">
-                    <h5>Personal Communication</h5>
-                </a>
-
-
-            </article>
-
-
-
-
-        </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         <a href="/scholarship/scholarship.html">
-            <img src="/scholarship/images/icons8-education-cost-64.png" alt="" class="social-media"
-                style="filter: invert(100%);">
+            <img src="/scholarship/images/icons8-education-cost-64.png" alt="" class="social-media" style="filter: invert(100%);">
         </a>
         <img src="images/facebook.png" alt="" class="social-media">
         <img src="images/insta.png" alt="" class="social-media">
         <img src="images/github.png" alt="" class="social-media github">
         <img src="images/linkedin.png" alt="" class="social-media">
-        <img src="images/whatsapp.png" alt="" class="social-media whatsapp">
-        <!-- <img src="" alt=""> -->
-        <!-- <img src="" alt=""> -->
+        <img src="images/whatsapp.png" alt="" class="social-media">
+
 
     </section>
 
@@ -357,9 +156,34 @@
 
 
 
+<script>
+    let btn = document.getElementById('toggle');
+    let doc= document.getElementById('hide');
+    doc.style.display='none'
+    function thide(){
+
+        let btn = document.getElementById('toggle');
+        let doc= document.getElementById('hide');
+
+        if(doc.style.display!='none'){
+            doc.style.display='none';
+            document.getElementById('toggle').innerHTML="Show more"
+        }
+        else{
+            doc.style.display='block';
+            document.getElementById('toggle').innerHTML="Show less"
+        }
+    }
+    function hover(){
+        console.log('call');
+        document.getElementsByClassName(globalClass)[0].style.backgroundColor='#5aaaac59'
+        setTimeout(() => {
+            document.getElementsByClassName(globalClass)[0].style.backgroundColor='transparent'
+        }, 700);
+    }
+</script>
 
 
-<script src="index.js"></script>
 </body>
 
 </html>
