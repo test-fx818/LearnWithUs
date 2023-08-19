@@ -1,42 +1,77 @@
 html{
     /* background-color: black; */
-    background-image: linear-gradient(90deg , rgb(8, 140, 216),rgba(20, 180, 172, 0.651),rgb(134, 44, 170));
+    /* background-image: linear-gradient(90deg , rgb(8, 140, 216),rgba(20, 180, 172, 0.651),rgb(134, 44, 170)); */
+    /* background-image: url(../NotesPedia/images/Electronic-background.webp); */
+    /* background-position: 100%; */
+    /* opacity: 10%; */
 }
 body{
     /* background-color: gray; */
     border: 1px solid white;
     margin: .8rem;
     border-radius: 1rem;
+    /* color: white; */
+    z-index: 1;
 }
 
-h1{
-    text-align: center;
-    font-size: 2.8rem;
+.body-bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: fit-content;
+    z-index: -1;
+    opacity: .9;
+    /* filter: contrast(0%); */
 }
-li{
+
+
+
+
+.heading h1{
+    padding-left: 2%;
+    font-size: 2.2rem;    
+}
+
+.heading-year{
+    padding-left: 2%;
+}
+
+ul , li{
     list-style-type: none;
 }
-a{
-    text-decoration: none;
-    color: inherit;
-    font-size: 1.45rem;
-    line-height: 2;
+
+details summary{
+    font-size: 1.5rem;
+    padding-left: 2%;
 }
-ul li a:hover{
+
+details li {
+
+        padding-left: 2%;
+        font-size: 1.2rem;
+        font-weight: 550;
+
+}
+
+details button{
+    margin: 1%;
+    margin-left: 4%;
     color: white;
 }
 
-.backtohome{
-    border: 1px solid black;
-    border-radius: .5rem;
-    padding: .4rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-}
-.backtohome:hover{
-    background-color: black;
-    color: white;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -68,6 +103,25 @@ section .social-media{
 
 
 
-img:hover{
-    scale: 1.4;
+
+
+
+details button{
+    padding: .4rem;
+    padding-left: .75rem;
+    padding-right: .75rem;
+    background-color: rgba(7, 119, 128, 0.315);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: .5rem;
+}
+
+.github , .home{
+    filter: invert(100%);
+}
+
+
+@media (max-width:550px){
+    /* body{
+        scale: .9;
+    } */
 }

@@ -339,7 +339,8 @@ img:hover{
 
         font-size: 2rem;
         margin: 0;
-        padding: 0;
+        padding: 0rem;
+        padding-top: 1.5rem;
     }
     .header-section p{
         font-size: 2rem;
@@ -399,4 +400,29 @@ img:hover{
     color: black;
     padding: 0.4rem 0.7rem;
     border-radius: 1rem;
+}
+
+
+
+
+.b-home{
+    transform: rotateZ(-90deg);
+    position: fixed;
+    right: 2%;
+    bottom: 1.5rem;
+}
+
+.team-text2{
+    display: none;
+}
+
+@media (max-width:500px){
+    
+    .team-text1{
+        display: none;
+    }
+    .team-text2{
+        display: block;
+    }
+    
 }
