@@ -64,8 +64,8 @@ h3 {
 /*     padding-left: .1rem; */
 /*     padding-right: .1rem; */
     border-bottom: 1px solid blue;
-    border-left: 1px solid blue;
-    border-right: 1px solid blue;
+    /* border-left: 1px solid blue; */
+    /* border-right: 1px solid blue; */
     margin: .3rem;
 /*     height: 20px; */
     display: flex;
@@ -78,6 +78,8 @@ h3 {
     border-radius: .6rem;
 }
 .border1 h3{
+    border-radius: 2.6rem;
+    padding: .4rem;
     padding-left: 1.25rem;
     padding-right: 1.25rem;
 }
@@ -86,7 +88,7 @@ h3:hover {
     color: black;
 /*     font-size: 1.8vh; */
     background-color: white;
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 
 .portfolio{
@@ -420,9 +422,9 @@ button{
     padding: .7rem;
     position: fixed;
     right: 1rem;
-    bottom: 1rem;
+    bottom: .4rem;
     border-radius: 1.5rem;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
 
 }
 .helpus{
