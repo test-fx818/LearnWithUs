@@ -10,7 +10,7 @@ body{
     border: 1px solid white;
     margin: .8rem;
     border-radius: 1rem;
-    /* color: white; */
+    color: white;
     z-index: 1;
 }
 
@@ -29,7 +29,7 @@ body{
 
 .heading h1{
     padding-left: 2%;
-    font-size: 2.2rem;    
+    font-size: 2rem;    
 }
 
 .heading-year{
@@ -41,14 +41,14 @@ ul , li{
 }
 
 details summary{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding-left: 2%;
 }
 
 details li {
 
         padding-left: 2%;
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-weight: 550;
 
 }
