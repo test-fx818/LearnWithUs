@@ -53,6 +53,7 @@ h1{
     h1{
         font-size: 1.3rem;
     }
+    
 }
 
 @media (min-width:400px) and (max-width:450px){
@@ -69,5 +70,11 @@ h1{
 @media (min-width:550px) and (max-width:700px){
     h1{
         font-size: 1.8rem;
+    }
+}
+
+@media (min-width: 474px) and (max-width: 550px){
+    .heading{
+        height: 4.4rem;
     }
 }
