@@ -62,7 +62,7 @@ html{
 
 .internal-div-books{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     row-gap: 1rem;
     place-items: center;
 }
@@ -71,8 +71,8 @@ html{
     /* height: 30%; */
     /* width: 30%; */
     /* height: 30%; */
-    height: 20rem;
-    width: 20rem;
+    height: 11rem;
+    width: 11rem;
     /* border: 5px solid rgba(21, 104, 228, 0.563); */
     border-radius: 1rem;
     /* border-top-left-radius: 1rem; */
@@ -83,7 +83,7 @@ html{
 }
 
 .internal-div-books img{
-    height: 13rem;
+    height: 5rem;
     z-index: 0;
 }
 
@@ -176,8 +176,8 @@ footer div:hover{
         /* height: 30%; */
         /* width: 30%; */
         /* height: 30%; */
-        height: 10rem;
-        width: 10rem;
+        height: 9rem;
+        width: 9rem;
         /* border: 5px solid gray; */
         display: flex;
         justify-content: center;
@@ -189,7 +189,7 @@ footer div:hover{
         place-items: center;
     }
     .internal-div-books img{
-        height: 6.5rem;
+        height: 5rem;
     }
     
 }
@@ -197,7 +197,7 @@ footer div:hover{
 @media (min-width:550px) and (max-width: 900px){
     .internal-div-books{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         row-gap: 1rem;
         place-items: center;
     }
@@ -205,37 +205,33 @@ footer div:hover{
         /* height: 30%; */
         /* width: 30%; */
         /* height: 30%; */
-        height: 14rem;
-        width: 14rem;
+        height: 10rem;
+        width: 10rem;
         /* border: 5px solid gray; */
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .internal-div-books img{
-        height: 10rem;
+        height: 5rem;
     }
     
 }
-@media (min-width:700px) and (max-width: 900px){
+/* @media (min-width:700px) and (max-width: 900px){
     .internal-div-books{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         row-gap: 1rem;
         place-items: center;
     }
     .internal-div-books div{
-        /* height: 30%; */
-        /* width: 30%; */
-        /* height: 30%; */
         height: 17rem;
         width: 17rem;
-        /* border: 5px solid gray; */
         display: flex;
         justify-content: center;
         align-items: center;
     }
-}
+} */
 
 @media (min-width:900px) and (max-width: 1300px){
     .internal-div-books{
