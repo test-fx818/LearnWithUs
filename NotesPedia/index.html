@@ -16,14 +16,15 @@
 
         <nav>
 
-                <h1 style="color: black; text-decoration: none;">NotesPedia</h1>
-
+            <h1 style="color: black; text-decoration: none;">NotesPedia</h1>
+            <br>
         </nav>
         <nav class="new">
-            <ul >
+            <ul>
                 <li style="list-style: none;"><a href="../index.html">Home</a></li>
                 <li style="list-style: none;"><a href="#explore">Courses</a></li>
-                <li style="list-style: none;"><a href=""><span class="team-text1">Meet Our Team</span> <span class="team-text2">Team</span> </a></li>
+                <li style="list-style: none;"><a href=""><span class="team-text1">Meet Our Team</span> <span
+                            class="team-text2">Team</span> </a></li>
                 <li style="list-style: none;"><a href="#">Contact</a></li>
             </ul>
         </nav>
@@ -35,28 +36,77 @@
 
 
 
-
-    
-
+    <!-- New NavBar -->
 
 
-    <div >
+    <div class="navbar">
+
+        <div>
+            <a href="../scholarship/scholarship.html">
+                <button onclick="change()">
+                    <img id="scholarship" src="../images/icons8-scholar-96.png" alt="">
+                </button>
+            </a>
+        </div>
+        <div class="notespedia-div">
+            <a href="../NotesPedia/index.html">
+                <button onclick="change()">
+                    <img id="notespedia" src="../images/icons8-hand-with-pen-94.png" alt="">
+                </button>
+            </a>
+        </div>
+        <div id="active-bar-div">
+            <a href="../index.html">
+                <button onclick="change()">
+                    <img id="home" src="../images/icons8-home-button-100.png" alt="">
+                </button>
+            </a>
+        </div>
+        <div>
+            <a href="../Books/book-index.html">
+                <button onclick="change()">
+                    <img id="book" src="../images/icons8-book-64.png" alt="">
+                </button>
+            </a>
+        </div>
+        <div>
+            <a href="../TechBlog/blog-index.html">
+                <button onclick="change()">
+                    <img id="techblog" src="../images/icons8-blog-60.png" alt="">
+                </button>
+            </a>
+        </div>
+
+
+
+    </div>
+
+    <!-- NewBar Ending -->
+
+
+    <br>
+
+
+
+    <div class="vision">
         <h3>Our Vision : </h3>
 
         <section>So We are designing this webpage in order to provide you all
             (The college students) the study material (Syllabus Notes) for their college exams.
-            <section id="hide"><br>This is now for 1st years only. We will cover for other year too and that, would be sooner than you think. <br><br>
+            <section id="hide"><br>This is now for 1st years only. We will cover for other year too and that, would be
+                sooner than you think. <br><br>
                 Till then keep exploring !! <br>
                 Thanks!!</section><button id="toggle" onclick="thide()">Show more</button>
-            </section>
+        </section>
 
     </div>
 
+    <br>
 
-    <section >
-        <h2 id="explore" >Explore</h2>
+    <section>
+        <h2 id="explore">Explore</h2>
         <nav class="course">
-            <a   onclick="globalClass='cse'; hover();" href="#cse">
+            <a onclick="globalClass='cse'; hover();" href="#cse">
                 <h5>Computer Science and Engineering</h5>
             </a>
             <a onclick="globalClass='et'; hover();" href="#et">
@@ -77,11 +127,12 @@
         </nav>
     </section>
 
-    <section >
-        <h2 >Explore Subjects</h2>
-        <section class="popularcourse" >
+    <br><br>
+    <section>
+        <h2>Explore Subjects</h2>
+        <section class="popularcourse">
 
-            <article id="cse" class="cse" >
+            <article id="cse" class="cse">
                 <h3>Computer Science and Engineering</h3>
                 <a href="cs.html" class="download-file">
                     <img src="images/cs logo.jpg" alt="" class="cs-logo"> <br>
@@ -90,9 +141,9 @@
 
             <article id="et" class="et">
                 <h3>Electronics Engineering</h3>
-                <a href="et.html" class="download-file" >
-                <img src="images/electronics.jpg" alt="" class="electro-logo"> <br>
-            </a>
+                <a href="et.html" class="download-file">
+                    <img src="images/electronics.jpg" alt="" class="electro-logo"> <br>
+                </a>
             </article>
 
 
@@ -134,11 +185,9 @@
     <hr>
     <p>
         Made with 💖 <br> -LearnWithUs Team
-
-
-
+    </p>
     <hr>
-
+    <br><br><br>
 
 
 
@@ -147,7 +196,8 @@
 
     <section class="social-media-section">
         <a href="/scholarship/scholarship.html">
-            <img src="/scholarship/images/icons8-education-cost-64.png" alt="" class="social-media" style="filter: invert(100%);">
+            <img src="/scholarship/images/icons8-education-cost-64.png" alt="" class="social-media"
+                style="filter: invert(100%);">
         </a>
         <img src="images/facebook.png" alt="" class="social-media">
         <img src="images/insta.png" alt="" class="social-media">
@@ -167,32 +217,32 @@
 
 
 
-<script>
-    let btn = document.getElementById('toggle');
-    let doc= document.getElementById('hide');
-    doc.style.display='none'
-    function thide(){
-
+    <script>
         let btn = document.getElementById('toggle');
-        let doc= document.getElementById('hide');
+        let doc = document.getElementById('hide');
+        doc.style.display = 'none'
+        function thide() {
 
-        if(doc.style.display!='none'){
-            doc.style.display='none';
-            document.getElementById('toggle').innerHTML="Show more"
+            let btn = document.getElementById('toggle');
+            let doc = document.getElementById('hide');
+
+            if (doc.style.display != 'none') {
+                doc.style.display = 'none';
+                document.getElementById('toggle').innerHTML = "Show more"
+            }
+            else {
+                doc.style.display = 'block';
+                document.getElementById('toggle').innerHTML = "Show less"
+            }
         }
-        else{
-            doc.style.display='block';
-            document.getElementById('toggle').innerHTML="Show less"
+        function hover() {
+            console.log('call');
+            document.getElementsByClassName(globalClass)[0].style.backgroundColor = '#5aaaac59'
+            setTimeout(() => {
+                document.getElementsByClassName(globalClass)[0].style.backgroundColor = 'transparent'
+            }, 700);
         }
-    }
-    function hover(){
-        console.log('call');
-        document.getElementsByClassName(globalClass)[0].style.backgroundColor='#5aaaac59'
-        setTimeout(() => {
-            document.getElementsByClassName(globalClass)[0].style.backgroundColor='transparent'
-        }, 700);
-    }
-</script>
+    </script>
 
 
 </body>
