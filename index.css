@@ -525,9 +525,9 @@ button{
 
 .copyright:hover {
     white-space: nowrap;
-    background-color: rgb(40, 37, 197);
+    background-color: rgb(66, 182, 228);
     color: white;
-    border: 2px solid white;
+    border: 2px solid rgba(255, 255, 255, 0);
     margin: .5rem;
     padding: .6rem;
     display: inline-block;
@@ -538,6 +538,23 @@ button{
     left: 0rem;
 
 }
+
+
+
+.team{
+    border: 1.7px solid rgb(25, 24, 56);
+    width: fit-content;
+    padding: .2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: .42rem;
+}
+
+.team:hover{
+    scale: 1.1;
+}
+
+
 
 
 @media (max-width:550px){
