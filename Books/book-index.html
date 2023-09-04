@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,23 +8,81 @@
     <link rel="stylesheet" href="book-index.css">
     <link rel="icon" href="images/icons8-book-50.png">
 </head>
+
 <body>
 
-    <div class="heading">
+    <div class="headings">
 
-            <div class="heading-title">
-                <h1>Book Section</h1>
-            </div>
+        <div class="heading-title">
+            <h1>Book Section</h1>
+        </div>
 
-            <div class="heading-nav">
-                <a href="../index.html">Home</a>
-                <a href="../NotesPedia/index.html">Notes</a>
-                <a href="../scholarship/scholarship.html">Scholarship</a>
-                <!-- <a href="">Scholar</a> -->
-            </div>
-        
+        <div class="heading-nav">
+            <a href="../index.html">Home</a>
+            <a href="../NotesPedia/index.html">Notes</a>
+            <a href="../scholarship/scholarship.html">Scholarship</a>
+            <!-- <a href="">Scholar</a> -->
+        </div>
+
     </div>
     <br>
+
+
+
+    <!-- New NavBar -->
+
+
+<div class="navbar">
+
+    <div>
+        <a href="../scholarship/scholarship.html">
+            <button onclick="change()">
+                <img id="scholarship" src="../images/icons8-scholar-96.png" alt="">
+            </button>
+        </a>
+    </div>
+    <div>
+        <a href="../NotesPedia/index.html">
+            <button onclick="change()">
+                <img id="notespedia" src="../images/icons8-hand-with-pen-94.png" alt="">
+            </button>
+        </a>
+    </div>
+    <div  id="active-bar-div">
+        <a href="../index.html">
+            <button onclick="change()">
+                <img id="home" src="../images/icons8-home-button-100.png" alt="">
+            </button>
+        </a>
+    </div>
+    <div>
+        <a href="../Books/book-index.html">
+            <button onclick="change()">
+                <img id="book" src="../images/icons8-book-64.png" alt="">
+            </button>
+        </a>
+    </div>
+    <div>
+        <a href="../TechBlog/blog-index.html">
+            <button onclick="change()">
+                <img id="techblog" src="../images/icons8-blog-60.png" alt="">
+            </button>
+        </a>
+    </div>
+
+    
+
+</div>
+
+<!-- NewBar Ending -->
+
+
+
+
+
+
+
+
     <div class="books-section">
 
         <div class="book-section1">
@@ -43,8 +102,8 @@
                         </a>
                     </nav>
                 </div>
-                
-                
+
+
                 <div class="lang">
                     <img class="img" src="images/cpp.png" alt="">
                     <nav class="prog-text">
@@ -74,8 +133,8 @@
 
 
                 </div>
-                
-                
+
+
                 <div class="lang">
                     <img class="img" src="images/c-sharp.png" alt="">
                     <nav class="prog-text">
@@ -88,8 +147,8 @@
                         </a>
                     </nav>
                 </div>
-                
-                
+
+
                 <div class="lang">
                     <img class="img" src="images/java.png" alt="">
                     <nav class="prog-text">
@@ -102,10 +161,10 @@
                         </a>
                     </nav>
 
-                
+
                 </div>
                 <!-- <div></div> -->
-                
+
 
             </div>
 
@@ -126,8 +185,8 @@
                             <button>Download</button>
                         </a>
                     </nav>
-                
-                
+
+
                 </div>
 
 
@@ -143,11 +202,11 @@
                             <button>Download</button>
                         </a>
                     </nav>
-                
+
                 </div>
-                
-                
-                
+
+
+
                 <div class="lang">
                     <img class="img" src="images/js.png" alt="">
                     <nav class="prog-text">
@@ -159,11 +218,11 @@
                             <button>Download</button>
                         </a>
                     </nav>
-                
+
                 </div>
-                
-                
-                
+
+
+
                 <div class="lang">
                     <img class="img" src="images/database-storage.png" alt="">
                     <nav class="prog-text">
@@ -175,7 +234,7 @@
                             <button>Download</button>
                         </a>
                     </nav>
-                
+
                 </div>
 
             </div>
@@ -184,7 +243,7 @@
 
         <div class="book-section3">
 
-            <h2>Develop Your Personality</h2>
+            <h2>Interview Questions </h2>
             <div class="internal-div-books">
 
                 <div>Book1</div>
@@ -197,6 +256,19 @@
         </div>
 
         <div class="book-section4">
+            <h2>Programming Questions</h2>
+            <div class="internal-div-books">
+
+                <div>Book1</div>
+                <div>Book2</div>
+                <div>Book3</div>
+                <div>Book4</div>
+
+            </div>
+
+
+        </div>
+        <div class="book-section5">
             <h2>Reference Books</h2>
             <div class="internal-div-books">
 
@@ -204,6 +276,19 @@
                 <div>Book2</div>
                 <div>Book3</div>
                 <div>Book4</div>
+
+            </div>
+
+
+        </div>
+        <div class="book-section6">
+            <h2>General Issues</h2>
+            <div class="internal-div-books">
+
+                <div>PDF1</div>
+                <div>PDF2</div>
+                <div>PDF3</div>
+                <div>PDF4</div>
 
             </div>
 
@@ -222,7 +307,7 @@
         </button>
     </a>
 
-<br><br>
+    <br><br>
 
     <footer>
 
@@ -234,6 +319,8 @@
         <div><a href="">FeedBack</a></div>
 
     </footer>
+    <br><br>
 
 </body>
+
 </html>
