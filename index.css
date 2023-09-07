@@ -542,7 +542,7 @@ button{
 
 
 .team{
-    border: 2px solid rgb(25, 24, 56);
+    border: 1px solid rgb(25, 24, 56);
     width: fit-content;
     padding: .2rem;
     padding-left: 1rem;
